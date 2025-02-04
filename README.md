@@ -16,3 +16,14 @@ In this study, we propose **SENSE**, a deep-learning-based framework that integr
 - **Self-Attention Mechanism**: Captures relationships between stations to improve prediction accuracy.
 - **Deep Learning Model**: Based on Transformer-like architectures for seismic event forecasting.
 - **Evaluated on Taiwan & Japan Datasets**: Demonstrates superior performance over traditional methods.
+
+## **Model Structure**
+![SENSE Model](image/SENSE.png)
+
+
+## **Training Workflow**
+The training process follows a structured pipeline, as illustrated below:
+
+![Training Workflow](image/workflow.png)
+
+
