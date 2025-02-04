@@ -75,8 +75,8 @@
             0,
             138
         ],
-        "single_station_model_path":"./single-station-18.hdf5",
-        "data_path": "./japan_v3.hdf5",
+        "single_station_model_path":"single-station-18.hdf5",
+        "data_path": "japan_v3.hdf5",
         "workers": 10,
         "weight_path": "weights_transformer_japan_rotation_ensemble",
         "key": "M_J",

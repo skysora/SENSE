@@ -24,3 +24,28 @@ In this study, we propose **SENSE**, a deep-learning-based framework that integr
 The training process follows a structured pipeline, as illustrated below:
 
 ![Training Workflow](image/workflow.png)
+
+## **Usage**
+
+### **Training**
+To train the model, use the following command:
+```bash
+CUDA_VISIBLE_DEVICES=<GPU_ID> python3 train.py –config <path_to_config>
+
+- `<GPU_ID>`: Specifies which GPU to use. Example: `0` for the first GPU.
+- `<path_to_config>`: Path to the configuration file. Example: `pga_configs/transformer_japan.json`.
+
+**Example:**
+CUDA_VISIBLE_DEVICES=0 python3 train.py –config pga_configs/transformer_japan.json
+```
+
+### **Evaluation**
+To evaluate the model on a test dataset, use:
+```bash
+CUDA_VISIBLE_DEVICES=<GPU_ID> python3 evaluate_250.py –experiment_path <path_to_model_output>
+
+- `<path_to_model_output>`: Directory containing the trained model and parameters.
+
+**Example:**
+CUDA_VISIBLE_DEVICES=0 python3 evaluate_250.py –experiment_path experiments/model_v1/
+```
