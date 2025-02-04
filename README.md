@@ -4,7 +4,6 @@ This repository contains the code and implementation for our paper:
 
 **"An Attention-based Framework with Multistation Information for Earthquake Early Warnings"**  
 Yu-Ming Huang, Kuan-Yu Chen, Wen-Wei Lin, and Da-Yi Chen  
-*, 2025*  
 
 ## 📖 Introduction
 Earthquake early warning systems (EEWS) play a crucial role in disaster risk reduction. Traditionally, single-station models have been widely used, but they often fail to consider global information across multiple seismic stations, leading to limitations in performance. 
@@ -25,5 +24,3 @@ In this study, we propose **SENSE**, a deep-learning-based framework that integr
 The training process follows a structured pipeline, as illustrated below:
 
 ![Training Workflow](image/workflow.png)
-
-
